@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "build": "prisma generate",
+    "build": "node init && prisma generate",
     "test": "node --import tsx --test",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate deploy",
